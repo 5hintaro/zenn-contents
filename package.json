@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/5hintaro/zenn-contents#readme",
   "dependencies": {
+    "prettier": "^3.5.2",
     "zenn-cli": "^0.1.95"
   }
 }
